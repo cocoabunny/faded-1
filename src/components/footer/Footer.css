@@ -1,0 +1,15 @@
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+hr{
+    color: white;
+    width: 80%;
+    margin: 1rem;
+}
