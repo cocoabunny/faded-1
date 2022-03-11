@@ -33,6 +33,7 @@ background-color: black;
     height: 100%;
     border-radius: 50%;
     margin: 1rem;
+    filter: grayscale(100%);
 }
 .products p{
     display: flex;
@@ -40,7 +41,7 @@ background-color: black;
     padding-top: 5px;
 }
 
-@media screen and (max-width: 1104px){
+@media screen and (max-width: 1200px){
  .products{
     grid-template-columns: repeat(2, 1fr);
  }
@@ -50,5 +51,15 @@ background-color: black;
 {
     .products{
         grid-template-columns: 1fr;
+    }
+
+    .products h3{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .products p{
+        font-size: 1.4rem;
+        font-weight: 200;
     }
 }

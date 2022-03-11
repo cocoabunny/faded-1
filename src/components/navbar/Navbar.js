@@ -16,13 +16,13 @@ const Navbar = () => {
                 <h1 className='header'>Faded</h1>
                 <ul className={click ? 'nav active' : 'nav'}>
                     <li className='nav-item'>
-                        <a href='/'>From San Jose</a>
+                        <a href='#about'>From San Jose</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='/'>Reviews</a>
+                        <a href='#products'>Reviews</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='/'>Appointments</a>
+                        <a href='#book'>Appointments</a>
                     </li>
                 </ul>
                 <div onClick={handleClick} className='hamburger'>

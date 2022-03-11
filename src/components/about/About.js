@@ -4,7 +4,7 @@ import Banner from '../../assets/banner.jpg'
 
 const About = () => {
     return (
-        <div className='about'>
+        <div className='about' id='about'>
             <div className='container'>
                 <div className='banner'>
                     <img src={Banner} alt='image of a barber shop' id='banner'></img>

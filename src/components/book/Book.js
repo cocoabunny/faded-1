@@ -5,7 +5,7 @@ import './Book.css'
 
 const Book = () => {
     return (
-        <div className='book'>
+        <div className='book' id='book'>
             <div className='info'>
                 <h2 className='title'>Appointments</h2>
                 <p className='availability'>If you'd like to book a haircut, please enter your email, and I will get back to you ASAP</p>
